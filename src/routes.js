@@ -1,7 +1,7 @@
 import About from "./pages/About/About";
 import Home from "./pages/Home/Home";
 import Offers from "./pages/Offers/Offers";
-import ProductDetails from "./pages/ProductPage/ProductPage";
+import ProductPage from "./pages/ProductPage/ProductPage";
 import Products from "./pages/Products/Products";
 
 const router = [
@@ -21,7 +21,7 @@ const router = [
     }
   },
   {
-    Component: ProductDetails,
+    Component: ProductPage,
     path: "/products/:id/*",
     key: "ProductDetails",
     nested : {
