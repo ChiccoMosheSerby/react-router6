@@ -2,7 +2,6 @@ import styled from "styled-components";
 
 export const StyledApp = styled.div`
   font-family: Arial, Helvetica, sans-serif;
-
   text-align: center;
   min-height: 100vh;
   height: 100%;
@@ -10,6 +9,7 @@ export const StyledApp = styled.div`
   .main {
     margin: auto;
     max-width: 960px;
+    padding-top: 100px;
   }
 
   body {
